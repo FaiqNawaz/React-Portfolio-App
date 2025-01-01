@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-contact.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import edusity  from "../assets/projects/edusity.jpg"
 
 export const HERO_CONTENT = `Hello ! I’m a passionate Front-End Developer with expertise in HTML, CSS, JS and REACT JS. As a recent graduate with a passion for new technologies and web development, I aim to deliver modern, responsive, and user-friendly web solutions. My goal is to transform creative ideas into functional digital experiences that stand out. I’m always eager to take on new challenges and help clients build impactful digital experiences. `;
 
@@ -17,11 +18,14 @@ export const PROJECTS = [
     technologies: ["HTML", "Tailwind CSS", "MERN"],
   },
   {
-    title: "Contact Management App",
-    image: project2,
-    description:
-      "Developed a user-friendly contact management application using React JS, Tailwind CSS, and Firebase. Implemented custom notifications and robust form validation with Yup and Formik, enabling efficient CRUD operations. Utilized Toastify for pop-up notifications and managed state with useState and useEffect. Incorporated search functionality to enhance user experience. ",
-    technologies: ["React Js", "Tailwind CSS", "Firebase"],
+    title: "Edusity",
+    image: edusity,
+    description: `
+        Edusity is a dynamic web application built using React.js, HTML, and CSS. The platform integrates Web3 Forms to collect and manage messages from users securely. It utilizes React's useState and useEffect hooks for managing state and lifecycle methods effectively. Additionally, Edusity features an interactive slider in the testimonials section. The design is fully responsive, ensuring a seamless experience across all device sizes. <br/><br/>
+    <strong>Visit the live project:</strong> <a href="https://edusity-faiq-nawazs-projects.vercel.app/" class="text-blue-600 font-semibold hover:underline" target="_blank" rel="noopener noreferrer">https://edusity-faiq-nawazs-projects.vercel.app/</a>
+   `, 
+        
+    technologies: ["HTML", "CSS", "React Js", ]    
   },
   {
     title: "Crypto Dashboard App",
@@ -43,6 +47,13 @@ export const PROJECTS = [
     description:
       "Developed a brand application page by converting a Figma design file into a functional web app using React.js, HTML, CSS, and JavaScript. Integrated Google Fonts to enhance the visual appeal and ensure consistent typography across different devices and browsers.",
     technologies: ["HTML", "CSS", "React Js"],
+  },
+  {
+    title: "Contact Management App",
+    image: project2,
+    description:
+      "Developed a user-friendly contact management application using React JS, Tailwind CSS, and Firebase. Implemented custom notifications and robust form validation with Yup and Formik, enabling efficient CRUD operations. Utilized Toastify for pop-up notifications and managed state with useState and useEffect. Incorporated search functionality to enhance user experience. ",
+    technologies: ["React Js", "Tailwind CSS", "Firebase"],
   },
 ];
 
