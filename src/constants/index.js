@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import edusity  from "../assets/projects/edusity.jpg"
+import RealEstate from "../assets/projects/RealEstate.jpg"
 
 export const HERO_CONTENT = `Hello ! I’m a passionate Front-End Developer with expertise in HTML, CSS, JS and REACT JS. As a recent graduate with a passion for new technologies and web development, I aim to deliver modern, responsive, and user-friendly web solutions. My goal is to transform creative ideas into functional digital experiences that stand out. I’m always eager to take on new challenges and help clients build impactful digital experiences. `;
 
@@ -26,6 +27,14 @@ export const PROJECTS = [
    `, 
         
     technologies: ["HTML", "CSS", "React Js", ]    
+  },
+  {
+    title: "Real Estate",
+    image: RealEstate,
+    description: `This project showcases a dynamic and interactive web application built with React.js, HTML, and CSS. It features smooth animations powered by Framer Motion and an engaging carousel implemented with Swiper.js. The design is user-friendly and visually appealing, providing a seamless experience across different devices. This project highlights my skills in front-end development, UI/UX design, and modern JavaScript libraries. <br/><br/>
+    <strong>Visit the live project:</strong> <a href="https://real-estate-git-master-faiq-nawazs-projects.vercel.app/" class="text-blue-600 font-semibold hover:underline" target="_blank" rel="noopener noreferrer">https://real-estate-git-master-faiq-nawazs-projects.vercel.app/</a>`,
+
+    technologies: ["HTML", "CSS", "React Js"]
   },
   {
     title: "Crypto Dashboard App",
